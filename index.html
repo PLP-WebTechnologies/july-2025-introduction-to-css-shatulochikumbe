@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Welcome to My First Styled Page</h1>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="intro-section">
+            <h2>Understanding the CSS Box Model</h2>
+            <p>The CSS box model is essentially a box that wraps around every HTML element. It consists of: margins, borders, padding, and the actual content.</p>
+            <button class="learn-more-btn">Learn More</button>
+        </section>
+
+        <section class="card-container">
+            <article class="card">
+                <h3>Margin</h3>
+                <p>Clears an area outside the border. The margin is transparent.</p>
+                <div class="box-model-visual margin-box"></div>
+            </article>
+
+            <article class="card">
+                <h3>Border</h3>
+                <p>A border that goes around the padding and content.</p>
+                <div class="box-model-visual border-box"></div>
+            </article>
+
+            <article class="card">
+                <h3>Padding</h3>
+                <p>Clears an area around the content. The padding is transparent.</p>
+                <div class="box-model-visual padding-box"></div>
+            </article>
+
+            <article class="card">
+                <h3>Content</h3>
+                <p>The content of the box, where text and images appear.</p>
+                <div class="box-model-visual content-box"></div>
+            </article>
+        </section>
+
+        <section class="text-section">
+            <h2>Basic CSS Properties</h2>
+            <p>CSS (Cascading Style Sheets) is used to style and layout web pages. With CSS, you can control the color, font, size of text, spacing between elements, how elements are positioned and laid out, what background images or background colors are to be used, different displays for different devices and screen sizes, and much more!</p>
+            
+            <div class="styled-text">
+                <p class="highlight">This text has custom styling applied.</p>
+                <p class="shadow-text">This text has a shadow effect.</p>
+                <p class="transformed-text">This text is transformed.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 CSS Basics Assignment. All rights reserved.</p>
+    </footer>
+</body>
+</html>
